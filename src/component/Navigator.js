@@ -31,6 +31,7 @@ const Headers = () => {
         ResultTable();
       }
     } catch (v) {
+      alert(v);
       console.log("error ", v);
     }
   };
